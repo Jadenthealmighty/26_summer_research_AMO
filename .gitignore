@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+# Large data files — store externally or in a data registry
+data/raw/*.npy
+data/raw/*.npz
+data/raw/*.csv
+data/raw/*.h5
+data/raw/*.hdf5
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Environment / secrets
+.env
+*.env.local
+
+# Results (figures are usually regenerable — adjust if you prefer to track them)
+# results/figures/
