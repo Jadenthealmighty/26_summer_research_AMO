@@ -10,9 +10,8 @@ Undergraduate research repository for data analysis and simulation work in a qua
 ROP_code/
 │
 ├── data/
-│   ├── raw/          # Original, unmodified data files (.npy, .csv, etc.) — never edit these
-│   ├── processed/    # Cleaned / transformed data ready for analysis
-│   └── external/     # Reference datasets, calibration files, or data from literature
+│   ├── csv_raw/      # csv files from recorded data
+│   └── np_raw/      # numpy files for recorded data 
 │
 ├── notebooks/        # Jupyter notebooks for analysis and exploration
 │
