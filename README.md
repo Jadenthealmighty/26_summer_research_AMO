@@ -11,7 +11,7 @@ ROP_code/
 │
 ├── data/
 │   ├── csv_raw/      # csv files from recorded data
-│   └── np_raw/      # numpy files for recorded data 
+│   └── np_raw/       # numpy files for recorded data 
 │
 ├── notebooks/        # Jupyter notebooks for analysis and exploration
 │
@@ -21,46 +21,12 @@ ROP_code/
 │   ├── figures/      # Saved plots and figures (.png, .pdf, .svg)
 │   └── reports/      # Written summaries, exports, or findings
 │
-├── environment/      # Environment and dependency files
-│
 ├── README.md
 ├── .gitignore
 └── requirements.txt
 ```
 
----
 
-## Setup
-
-### 1. Clone the repo
-```bash
-git clone <your-repo-url>
-cd quantum-optics-research
-```
-
-### 2. Create and activate the virtual environment
-```bash
-python -m venv .venv
-source .venv/bin/activate      # macOS / Linux
-# .venv\Scripts\activate       # Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Register the kernel with Jupyter
-```bash
-python -m ipykernel install --user --name=quantum-optics --display-name "Python (quantum-optics)"
-```
-
-### 5. Launch Jupyter
-```bash
-jupyter lab
-```
-
----
 
 ## Data Conventions
 
@@ -100,4 +66,4 @@ See `requirements.txt` for the full list. Core packages:
 ## Notes
 
 - MicroPython / Arduino code will live in a future `firmware/` directory.
-- Add large data files to `.gitignore` — use cloud storage or a data registry for anything over ~50 MB.
+
